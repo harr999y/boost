@@ -91,3 +91,6 @@
 [submodule "functional"]
 	path = functional
 	url = git://github.com/boost-lib/functional.git
+[submodule "fusion"]
+	path = fusion
+	url = git://github.com/boost-lib/fusion.git
