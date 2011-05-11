@@ -49,3 +49,6 @@
 [submodule "conversion"]
 	path = conversion
 	url = git://github.com/boost-lib/conversion.git
+[submodule "core"]
+	path = core
+	url = git://github.com/boost-lib/core.git
