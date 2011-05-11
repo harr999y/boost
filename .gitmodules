@@ -268,3 +268,6 @@
 [submodule "typeof"]
 	path = typeof
 	url = git://github.com/boost-lib/typeof.git
+[submodule "units"]
+	path = units
+	url = git://github.com/boost-lib/units.git
