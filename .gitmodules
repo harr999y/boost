@@ -16,3 +16,6 @@
 [submodule "assign"]
 	path = assign
 	url = git://github.com/boost-lib/assign.git
+[submodule "bcp"]
+	path = bcp
+	url = git://github.com/boost-lib/bcp.git
