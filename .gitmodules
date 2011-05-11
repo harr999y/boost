@@ -112,3 +112,6 @@
 [submodule "inspect"]
 	path = inspect
 	url = git://github.com/boost-lib/inspect.git
+[submodule "integer"]
+	path = integer
+	url = git://github.com/boost-lib/integer.git
