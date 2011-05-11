@@ -25,3 +25,6 @@
 [submodule "bind"]
 	path = bind
 	url = git://github.com/boost-lib/bind.git
+[submodule "boostbook"]
+	path = boostbook
+	url = git://github.com/boost-lib/boostbook.git
