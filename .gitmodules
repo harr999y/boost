@@ -145,3 +145,6 @@
 [submodule "move"]
 	path = move
 	url = git://github.com/boost-lib/move.git
+[submodule "mpi"]
+	path = mpi
+	url = git://github.com/boost-lib/mpi.git
