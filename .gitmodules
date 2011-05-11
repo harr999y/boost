@@ -205,3 +205,6 @@
 [submodule "random"]
 	path = random
 	url = git://github.com/boost-lib/random.git
+[submodule "range"]
+	path = range
+	url = git://github.com/boost-lib/range.git
