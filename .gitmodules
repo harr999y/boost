@@ -73,3 +73,6 @@
 [submodule "filesystem"]
 	path = filesystem
 	url = git://github.com/boost-lib/filesystem.git
+[submodule "flyweight"]
+	path = flyweight
+	url = git://github.com/boost-lib/flyweight.git
