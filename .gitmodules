@@ -241,3 +241,6 @@
 [submodule "static_assert"]
 	path = static_assert
 	url = git://github.com/boost-lib/static_assert.git
+[submodule "system"]
+	path = system
+	url = git://github.com/boost-lib/system.git
