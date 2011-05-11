@@ -82,3 +82,6 @@
 [submodule "format"]
 	path = format
 	url = git://github.com/boost-lib/format.git
+[submodule "function"]
+	path = function
+	url = git://github.com/boost-lib/function.git
