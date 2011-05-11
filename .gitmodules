@@ -169,3 +169,6 @@
 [submodule "parameter"]
 	path = parameter
 	url = git://github.com/boost-lib/parameter.git
+[submodule "phoenix"]
+	path = phoenix
+	url = git://github.com/boost-lib/phoenix.git
