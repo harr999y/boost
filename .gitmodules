@@ -157,3 +157,6 @@
 [submodule "multi_array"]
 	path = multi_array
 	url = git://github.com/boost-lib/multi_array.git
+[submodule "multi_index"]
+	path = multi_index
+	url = git://github.com/boost-lib/multi_index.git
