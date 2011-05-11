@@ -226,3 +226,6 @@
 [submodule "signals"]
 	path = signals
 	url = git://github.com/boost-lib/signals.git
+[submodule "signals2"]
+	path = signals2
+	url = git://github.com/boost-lib/signals2.git
