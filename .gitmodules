@@ -139,3 +139,6 @@
 [submodule "logic"]
 	path = logic
 	url = git://github.com/boost-lib/logic.git
+[submodule "math"]
+	path = math
+	url = git://github.com/boost-lib/math.git
