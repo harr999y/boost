@@ -142,3 +142,6 @@
 [submodule "math"]
 	path = math
 	url = git://github.com/boost-lib/math.git
+[submodule "move"]
+	path = move
+	url = git://github.com/boost-lib/move.git
