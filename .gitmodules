@@ -262,3 +262,6 @@
 [submodule "tuple"]
 	path = tuple
 	url = git://github.com/boost-lib/tuple.git
+[submodule "type_traits"]
+	path = type_traits
+	url = git://github.com/boost-lib/type_traits.git
