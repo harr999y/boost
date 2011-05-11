@@ -265,3 +265,6 @@
 [submodule "type_traits"]
 	path = type_traits
 	url = git://github.com/boost-lib/type_traits.git
+[submodule "typeof"]
+	path = typeof
+	url = git://github.com/boost-lib/typeof.git
