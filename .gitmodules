@@ -67,3 +67,6 @@
 [submodule "dynamic_bitset"]
 	path = dynamic_bitset
 	url = git://github.com/boost-lib/dynamic_bitset.git
+[submodule "exception"]
+	path = exception
+	url = git://github.com/boost-lib/exception.git
