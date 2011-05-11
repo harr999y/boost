@@ -106,3 +106,6 @@
 [submodule "graph_parallel"]
 	path = graph_parallel
 	url = git://github.com/boost-lib/graph_parallel.git
+[submodule "icl"]
+	path = icl
+	url = git://github.com/boost-lib/icl.git
