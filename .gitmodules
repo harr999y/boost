@@ -40,3 +40,6 @@
 [submodule "compatibility"]
 	path = compatibility
 	url = git://github.com/boost-lib/compatibility.git
+[submodule "concept_check"]
+	path = concept_check
+	url = git://github.com/boost-lib/concept_check.git
