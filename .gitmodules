@@ -184,3 +184,6 @@
 [submodule "program_options"]
 	path = program_options
 	url = git://github.com/boost-lib/program_options.git
+[submodule "property_map"]
+	path = property_map
+	url = git://github.com/boost-lib/property_map.git
