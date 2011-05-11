@@ -109,3 +109,6 @@
 [submodule "icl"]
 	path = icl
 	url = git://github.com/boost-lib/icl.git
+[submodule "inspect"]
+	path = inspect
+	url = git://github.com/boost-lib/inspect.git
