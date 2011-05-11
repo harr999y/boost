@@ -193,3 +193,6 @@
 [submodule "proto"]
 	path = proto
 	url = git://github.com/boost-lib/proto.git
+[submodule "ptr_container"]
+	path = ptr_container
+	url = git://github.com/boost-lib/ptr_container.git
