@@ -277,3 +277,6 @@
 [submodule "utility"]
 	path = utility
 	url = git://github.com/boost-lib/utility.git
+[submodule "uuid"]
+	path = uuid
+	url = git://github.com/boost-lib/uuid.git
