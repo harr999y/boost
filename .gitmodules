@@ -61,3 +61,6 @@
 [submodule "detail"]
 	path = detail
 	url = git://github.com/boost-lib/detail.git
+[submodule "disjoint_sets"]
+	path = disjoint_sets
+	url = git://github.com/boost-lib/disjoint_sets.git
