@@ -148,3 +148,6 @@
 [submodule "mpi"]
 	path = mpi
 	url = git://github.com/boost-lib/mpi.git
+[submodule "mpl"]
+	path = mpl
+	url = git://github.com/boost-lib/mpl.git
