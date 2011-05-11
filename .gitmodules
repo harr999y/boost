@@ -10,3 +10,6 @@
 [submodule "array"]
 	path = array
 	url = git://github.com/boost-lib/array.git
+[submodule "asio"]
+	path = asio
+	url = git://github.com/boost-lib/asio.git
