@@ -208,3 +208,6 @@
 [submodule "range"]
 	path = range
 	url = git://github.com/boost-lib/range.git
+[submodule "ratio"]
+	path = ratio
+	url = git://github.com/boost-lib/ratio.git
