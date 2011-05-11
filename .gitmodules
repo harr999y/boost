@@ -232,3 +232,6 @@
 [submodule "smart_ptr"]
 	path = smart_ptr
 	url = git://github.com/boost-lib/smart_ptr.git
+[submodule "spirit"]
+	path = spirit
+	url = git://github.com/boost-lib/spirit.git
