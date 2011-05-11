@@ -238,3 +238,6 @@
 [submodule "statechart"]
 	path = statechart
 	url = git://github.com/boost-lib/statechart.git
+[submodule "static_assert"]
+	path = static_assert
+	url = git://github.com/boost-lib/static_assert.git
