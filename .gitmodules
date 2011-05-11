@@ -115,3 +115,6 @@
 [submodule "integer"]
 	path = integer
 	url = git://github.com/boost-lib/integer.git
+[submodule "interprocess"]
+	path = interprocess
+	url = git://github.com/boost-lib/interprocess.git
