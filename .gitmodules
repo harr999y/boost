@@ -235,3 +235,6 @@
 [submodule "spirit"]
 	path = spirit
 	url = git://github.com/boost-lib/spirit.git
+[submodule "statechart"]
+	path = statechart
+	url = git://github.com/boost-lib/statechart.git
