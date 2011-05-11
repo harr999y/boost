@@ -151,3 +151,6 @@
 [submodule "mpl"]
 	path = mpl
 	url = git://github.com/boost-lib/mpl.git
+[submodule "msm"]
+	path = msm
+	url = git://github.com/boost-lib/msm.git
