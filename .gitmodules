@@ -211,3 +211,6 @@
 [submodule "ratio"]
 	path = ratio
 	url = git://github.com/boost-lib/ratio.git
+[submodule "rational"]
+	path = rational
+	url = git://github.com/boost-lib/rational.git
