@@ -22,3 +22,6 @@
 [submodule "bimap"]
 	path = bimap
 	url = git://github.com/boost-lib/bimap.git
+[submodule "bind"]
+	path = bind
+	url = git://github.com/boost-lib/bind.git
