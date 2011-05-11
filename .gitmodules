@@ -274,3 +274,6 @@
 [submodule "unordered"]
 	path = unordered
 	url = git://github.com/boost-lib/unordered.git
+[submodule "utility"]
+	path = utility
+	url = git://github.com/boost-lib/utility.git
