@@ -199,3 +199,6 @@
 [submodule "python"]
 	path = python
 	url = git://github.com/boost-lib/python.git
+[submodule "quickbook"]
+	path = quickbook
+	url = git://github.com/boost-lib/quickbook.git
