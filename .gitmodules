@@ -19,3 +19,6 @@
 [submodule "bcp"]
 	path = bcp
 	url = git://github.com/boost-lib/bcp.git
+[submodule "bimap"]
+	path = bimap
+	url = git://github.com/boost-lib/bimap.git
