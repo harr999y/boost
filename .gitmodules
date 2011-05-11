@@ -85,3 +85,6 @@
 [submodule "function"]
 	path = function
 	url = git://github.com/boost-lib/function.git
+[submodule "function_types"]
+	path = function_types
+	url = git://github.com/boost-lib/function_types.git
