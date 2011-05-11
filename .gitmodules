@@ -28,3 +28,6 @@
 [submodule "boostbook"]
 	path = boostbook
 	url = git://github.com/boost-lib/boostbook.git
+[submodule "build"]
+	path = build
+	url = git://github.com/boost-lib/build.git
