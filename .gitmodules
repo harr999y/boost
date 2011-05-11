@@ -133,3 +133,6 @@
 [submodule "lambda"]
 	path = lambda
 	url = git://github.com/boost-lib/lambda.git
+[submodule "litre"]
+	path = litre
+	url = git://github.com/boost-lib/litre.git
