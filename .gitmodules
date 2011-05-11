@@ -1,0 +1,3 @@
+[submodule "accumulators"]
+	path = accumulators
+	url = git://github.com/boost-lib/accumulators.git
