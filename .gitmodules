@@ -4,3 +4,6 @@
 [submodule "algorithm"]
 	path = algorithm
 	url = git://github.com/boost-lib/algorithm.git
+[submodule "any"]
+	path = any
+	url = git://github.com/boost-lib/any.git
