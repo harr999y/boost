@@ -163,3 +163,6 @@
 [submodule "numeric"]
 	path = numeric
 	url = git://github.com/boost-lib/numeric.git
+[submodule "optional"]
+	path = optional
+	url = git://github.com/boost-lib/optional.git
