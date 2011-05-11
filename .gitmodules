@@ -190,3 +190,6 @@
 [submodule "property_tree"]
 	path = property_tree
 	url = git://github.com/boost-lib/property_tree.git
+[submodule "proto"]
+	path = proto
+	url = git://github.com/boost-lib/proto.git
