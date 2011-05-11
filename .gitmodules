@@ -280,3 +280,6 @@
 [submodule "uuid"]
 	path = uuid
 	url = git://github.com/boost-lib/uuid.git
+[submodule "variant"]
+	path = variant
+	url = git://github.com/boost-lib/variant.git
