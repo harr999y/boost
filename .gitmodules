@@ -154,3 +154,6 @@
 [submodule "msm"]
 	path = msm
 	url = git://github.com/boost-lib/msm.git
+[submodule "multi_array"]
+	path = multi_array
+	url = git://github.com/boost-lib/multi_array.git
