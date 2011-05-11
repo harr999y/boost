@@ -37,3 +37,6 @@
 [submodule "circular_buffer"]
 	path = circular_buffer
 	url = git://github.com/boost-lib/circular_buffer.git
+[submodule "compatibility"]
+	path = compatibility
+	url = git://github.com/boost-lib/compatibility.git
