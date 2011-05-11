@@ -1,3 +1,6 @@
 [submodule "accumulators"]
 	path = accumulators
 	url = git://github.com/boost-lib/accumulators.git
+[submodule "algorithm"]
+	path = algorithm
+	url = git://github.com/boost-lib/algorithm.git
