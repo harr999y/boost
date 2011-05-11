@@ -13,3 +13,6 @@
 [submodule "asio"]
 	path = asio
 	url = git://github.com/boost-lib/asio.git
+[submodule "assign"]
+	path = assign
+	url = git://github.com/boost-lib/assign.git
