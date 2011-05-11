@@ -220,3 +220,6 @@
 [submodule "scope_exit"]
 	path = scope_exit
 	url = git://github.com/boost-lib/scope_exit.git
+[submodule "serialization"]
+	path = serialization
+	url = git://github.com/boost-lib/serialization.git
