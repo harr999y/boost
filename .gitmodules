@@ -130,3 +130,6 @@
 [submodule "iterator"]
 	path = iterator
 	url = git://github.com/boost-lib/iterator.git
+[submodule "lambda"]
+	path = lambda
+	url = git://github.com/boost-lib/lambda.git
