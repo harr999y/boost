@@ -253,3 +253,6 @@
 [submodule "timer"]
 	path = timer
 	url = git://github.com/boost-lib/timer.git
+[submodule "tokenizer"]
+	path = tokenizer
+	url = git://github.com/boost-lib/tokenizer.git
