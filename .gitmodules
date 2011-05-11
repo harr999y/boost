@@ -259,3 +259,6 @@
 [submodule "tr1"]
 	path = tr1
 	url = git://github.com/boost-lib/tr1.git
+[submodule "tuple"]
+	path = tuple
+	url = git://github.com/boost-lib/tuple.git
