@@ -250,3 +250,6 @@
 [submodule "thread"]
 	path = thread
 	url = git://github.com/boost-lib/thread.git
+[submodule "timer"]
+	path = timer
+	url = git://github.com/boost-lib/timer.git
