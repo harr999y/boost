@@ -76,3 +76,6 @@
 [submodule "flyweight"]
 	path = flyweight
 	url = git://github.com/boost-lib/flyweight.git
+[submodule "foreach"]
+	path = foreach
+	url = git://github.com/boost-lib/foreach.git
