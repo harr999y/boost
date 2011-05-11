@@ -178,3 +178,6 @@
 [submodule "pool"]
 	path = pool
 	url = git://github.com/boost-lib/pool.git
+[submodule "preprocessor"]
+	path = preprocessor
+	url = git://github.com/boost-lib/preprocessor.git
