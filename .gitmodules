@@ -46,3 +46,6 @@
 [submodule "config"]
 	path = config
 	url = git://github.com/boost-lib/config.git
+[submodule "conversion"]
+	path = conversion
+	url = git://github.com/boost-lib/conversion.git
