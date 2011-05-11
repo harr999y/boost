@@ -52,3 +52,6 @@
 [submodule "core"]
 	path = core
 	url = git://github.com/boost-lib/core.git
+[submodule "crc"]
+	path = crc
+	url = git://github.com/boost-lib/crc.git
