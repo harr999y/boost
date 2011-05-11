@@ -247,3 +247,6 @@
 [submodule "test"]
 	path = test
 	url = git://github.com/boost-lib/test.git
+[submodule "thread"]
+	path = thread
+	url = git://github.com/boost-lib/thread.git
