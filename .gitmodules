@@ -124,3 +124,6 @@
 [submodule "io"]
 	path = io
 	url = git://github.com/boost-lib/io.git
+[submodule "iostreams"]
+	path = iostreams
+	url = git://github.com/boost-lib/iostreams.git
