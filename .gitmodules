@@ -136,3 +136,6 @@
 [submodule "litre"]
 	path = litre
 	url = git://github.com/boost-lib/litre.git
+[submodule "logic"]
+	path = logic
+	url = git://github.com/boost-lib/logic.git
