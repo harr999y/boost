@@ -223,3 +223,6 @@
 [submodule "serialization"]
 	path = serialization
 	url = git://github.com/boost-lib/serialization.git
+[submodule "signals"]
+	path = signals
+	url = git://github.com/boost-lib/signals.git
