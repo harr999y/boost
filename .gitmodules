@@ -31,3 +31,6 @@
 [submodule "libs/compatibility"]
 	path = libs/compatibility
 	url = git://github.com/boost-lib/compatibility.git
+[submodule "libs/concept_check"]
+	path = libs/concept_check
+	url = git://github.com/boost-lib/concept_check.git
