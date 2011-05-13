@@ -157,3 +157,6 @@
 [submodule "libs/phoenix"]
 	path = libs/phoenix
 	url = git://github.com/boost-lib/phoenix.git
+[submodule "libs/polygon"]
+	path = libs/polygon
+	url = git://github.com/boost-lib/polygon.git
