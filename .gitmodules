@@ -22,3 +22,6 @@
 [submodule "libs/bind"]
 	path = libs/bind
 	url = git://github.com/boost-lib/bind.git
+[submodule "libs/chrono"]
+	path = libs/chrono
+	url = git://github.com/boost-lib/chrono.git
