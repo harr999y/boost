@@ -46,3 +46,6 @@
 [submodule "libs/crc"]
 	path = libs/crc
 	url = git://github.com/boost-lib/crc.git
+[submodule "libs/date_time"]
+	path = libs/date_time
+	url = git://github.com/boost-lib/date_time.git
