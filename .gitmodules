@@ -91,3 +91,6 @@
 [submodule "libs/gil"]
 	path = libs/gil
 	url = git://github.com/boost-lib/gil.git
+[submodule "libs/graph"]
+	path = libs/graph
+	url = git://github.com/boost-lib/graph.git
