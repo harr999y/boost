@@ -238,3 +238,6 @@
 [submodule "libs/tokenizer"]
 	path = libs/tokenizer
 	url = git://github.com/boost-lib/tokenizer.git
+[submodule "libs/tr1"]
+	path = libs/tr1
+	url = git://github.com/boost-lib/tr1.git
