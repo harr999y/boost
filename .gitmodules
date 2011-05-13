@@ -208,3 +208,6 @@
 [submodule "libs/signals"]
 	path = libs/signals
 	url = git://github.com/boost-lib/signals.git
+[submodule "libs/signals2"]
+	path = libs/signals2
+	url = git://github.com/boost-lib/signals2.git
