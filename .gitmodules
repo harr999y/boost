@@ -214,3 +214,6 @@
 [submodule "libs/smart_ptr"]
 	path = libs/smart_ptr
 	url = git://github.com/boost-lib/smart_ptr.git
+[submodule "libs/spirit"]
+	path = libs/spirit
+	url = git://github.com/boost-lib/spirit.git
