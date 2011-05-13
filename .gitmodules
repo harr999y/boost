@@ -262,3 +262,6 @@
 [submodule "libs/uuid"]
 	path = libs/uuid
 	url = git://github.com/boost-lib/uuid.git
+[submodule "libs/variant"]
+	path = libs/variant
+	url = git://github.com/boost-lib/variant.git
