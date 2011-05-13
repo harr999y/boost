@@ -232,3 +232,6 @@
 [submodule "libs/thread"]
 	path = libs/thread
 	url = git://github.com/boost-lib/thread.git
+[submodule "libs/timer"]
+	path = libs/timer
+	url = git://github.com/boost-lib/timer.git
