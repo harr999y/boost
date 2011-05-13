@@ -25,3 +25,6 @@
 [submodule "libs/chrono"]
 	path = libs/chrono
 	url = git://github.com/boost-lib/chrono.git
+[submodule "libs/circular_buffer"]
+	path = libs/circular_buffer
+	url = git://github.com/boost-lib/circular_buffer.git
