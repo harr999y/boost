@@ -226,3 +226,6 @@
 [submodule "libs/system"]
 	path = libs/system
 	url = git://github.com/boost-lib/system.git
+[submodule "libs/test"]
+	path = libs/test
+	url = git://github.com/boost-lib/test.git
