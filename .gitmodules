@@ -175,3 +175,6 @@
 [submodule "libs/property_tree"]
 	path = libs/property_tree
 	url = git://github.com/boost-lib/property_tree.git
+[submodule "libs/proto"]
+	path = libs/proto
+	url = git://github.com/boost-lib/proto.git
