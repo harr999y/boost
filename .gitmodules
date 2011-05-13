@@ -127,3 +127,6 @@
 [submodule "libs/math"]
 	path = libs/math
 	url = git://github.com/boost-lib/math.git
+[submodule "libs/move"]
+	path = libs/move
+	url = git://github.com/boost-lib/move.git
