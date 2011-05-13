@@ -268,3 +268,6 @@
 [submodule "libs/wave"]
 	path = libs/wave
 	url = git://github.com/boost-lib/wave.git
+[submodule "libs/xpressive"]
+	path = libs/xpressive
+	url = git://github.com/boost-lib/xpressive.git
