@@ -85,3 +85,6 @@
 [submodule "libs/fusion"]
 	path = libs/fusion
 	url = git://github.com/boost-lib/fusion.git
+[submodule "libs/geometry"]
+	path = libs/geometry
+	url = git://github.com/boost-lib/geometry.git
