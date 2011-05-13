@@ -19,3 +19,6 @@
 [submodule "libs/bimap"]
 	path = libs/bimap
 	url = git://github.com/boost-lib/bimap.git
+[submodule "libs/bind"]
+	path = libs/bind
+	url = git://github.com/boost-lib/bind.git
