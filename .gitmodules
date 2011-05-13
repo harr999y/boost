@@ -274,3 +274,6 @@
 [submodule "tools/bcp"]
 	path = tools/bcp
 	url = git://github.com/boost-lib/bcp.git
+[submodule "tools/boostbook"]
+	path = tools/boostbook
+	url = git://github.com/boost-lib/boostbook.git
