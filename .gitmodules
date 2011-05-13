@@ -277,3 +277,6 @@
 [submodule "tools/boostbook"]
 	path = tools/boostbook
 	url = git://github.com/boost-lib/boostbook.git
+[submodule "tools/build"]
+	path = tools/build
+	url = git://github.com/boost-lib/build.git
