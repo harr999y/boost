@@ -88,3 +88,6 @@
 [submodule "libs/geometry"]
 	path = libs/geometry
 	url = git://github.com/boost-lib/geometry.git
+[submodule "libs/gil"]
+	path = libs/gil
+	url = git://github.com/boost-lib/gil.git
