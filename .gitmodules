@@ -118,3 +118,6 @@
 [submodule "libs/iterator"]
 	path = libs/iterator
 	url = git://github.com/boost-lib/iterator.git
+[submodule "libs/lambda"]
+	path = libs/lambda
+	url = git://github.com/boost-lib/lambda.git
