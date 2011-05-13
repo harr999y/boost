@@ -244,3 +244,6 @@
 [submodule "libs/tuple"]
 	path = libs/tuple
 	url = git://github.com/boost-lib/tuple.git
+[submodule "libs/type_traits"]
+	path = libs/type_traits
+	url = git://github.com/boost-lib/type_traits.git
