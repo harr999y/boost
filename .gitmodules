@@ -103,3 +103,6 @@
 [submodule "libs/integer"]
 	path = libs/integer
 	url = git://github.com/boost-lib/integer.git
+[submodule "libs/interprocess"]
+	path = libs/interprocess
+	url = git://github.com/boost-lib/interprocess.git
