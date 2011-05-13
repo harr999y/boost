@@ -43,3 +43,6 @@
 [submodule "libs/core"]
 	path = libs/core
 	url = git://github.com/boost-lib/core.git
+[submodule "libs/crc"]
+	path = libs/crc
+	url = git://github.com/boost-lib/crc.git
