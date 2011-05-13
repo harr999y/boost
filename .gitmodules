@@ -16,3 +16,6 @@
 [submodule "libs/assign"]
 	path = libs/assign
 	url = git://github.com/boost-lib/assign.git
+[submodule "libs/bimap"]
+	path = libs/bimap
+	url = git://github.com/boost-lib/bimap.git
