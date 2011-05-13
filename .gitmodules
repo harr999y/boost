@@ -181,3 +181,6 @@
 [submodule "libs/ptr_container"]
 	path = libs/ptr_container
 	url = git://github.com/boost-lib/ptr_container.git
+[submodule "libs/python"]
+	path = libs/python
+	url = git://github.com/boost-lib/python.git
