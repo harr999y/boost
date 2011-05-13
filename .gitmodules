@@ -271,3 +271,6 @@
 [submodule "libs/xpressive"]
 	path = libs/xpressive
 	url = git://github.com/boost-lib/xpressive.git
+[submodule "tools/bcp"]
+	path = tools/bcp
+	url = git://github.com/boost-lib/bcp.git
