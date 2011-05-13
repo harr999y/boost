@@ -280,3 +280,6 @@
 [submodule "tools/build"]
 	path = tools/build
 	url = git://github.com/boost-lib/build.git
+[submodule "tools/inspect"]
+	path = tools/inspect
+	url = git://github.com/boost-lib/inspect.git
