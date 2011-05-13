@@ -148,3 +148,6 @@
 [submodule "libs/numeric"]
 	path = libs/numeric
 	url = git://github.com/boost-lib/numeric.git
+[submodule "libs/optional"]
+	path = libs/optional
+	url = git://github.com/boost-lib/optional.git
