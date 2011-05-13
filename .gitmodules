@@ -283,3 +283,6 @@
 [submodule "tools/inspect"]
 	path = tools/inspect
 	url = git://github.com/boost-lib/inspect.git
+[submodule "tools/litre"]
+	path = tools/litre
+	url = git://github.com/boost-lib/litre.git
