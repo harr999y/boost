@@ -10,3 +10,6 @@
 [submodule "libs/array"]
 	path = libs/array
 	url = git://github.com/boost-lib/array.git
+[submodule "libs/asio"]
+	path = libs/asio
+	url = git://github.com/boost-lib/asio.git
