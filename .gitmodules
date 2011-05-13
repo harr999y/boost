@@ -211,3 +211,6 @@
 [submodule "libs/signals2"]
 	path = libs/signals2
 	url = git://github.com/boost-lib/signals2.git
+[submodule "libs/smart_ptr"]
+	path = libs/smart_ptr
+	url = git://github.com/boost-lib/smart_ptr.git
