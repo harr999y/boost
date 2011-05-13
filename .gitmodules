@@ -184,3 +184,6 @@
 [submodule "libs/python"]
 	path = libs/python
 	url = git://github.com/boost-lib/python.git
+[submodule "libs/random"]
+	path = libs/random
+	url = git://github.com/boost-lib/random.git
