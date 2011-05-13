@@ -265,3 +265,6 @@
 [submodule "libs/variant"]
 	path = libs/variant
 	url = git://github.com/boost-lib/variant.git
+[submodule "libs/wave"]
+	path = libs/wave
+	url = git://github.com/boost-lib/wave.git
