@@ -172,3 +172,6 @@
 [submodule "libs/property_map"]
 	path = libs/property_map
 	url = git://github.com/boost-lib/property_map.git
+[submodule "libs/property_tree"]
+	path = libs/property_tree
+	url = git://github.com/boost-lib/property_tree.git
