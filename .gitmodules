@@ -121,3 +121,6 @@
 [submodule "libs/lambda"]
 	path = libs/lambda
 	url = git://github.com/boost-lib/lambda.git
+[submodule "libs/logic"]
+	path = libs/logic
+	url = git://github.com/boost-lib/logic.git
