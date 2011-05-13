@@ -196,3 +196,6 @@
 [submodule "libs/rational"]
 	path = libs/rational
 	url = git://github.com/boost-lib/rational.git
+[submodule "libs/regex"]
+	path = libs/regex
+	url = git://github.com/boost-lib/regex.git
