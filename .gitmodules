@@ -61,3 +61,6 @@
 [submodule "libs/exception"]
 	path = libs/exception
 	url = git://github.com/boost-lib/exception.git
+[submodule "libs/filesystem"]
+	path = libs/filesystem
+	url = git://github.com/boost-lib/filesystem.git
