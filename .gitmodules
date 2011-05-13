@@ -256,3 +256,6 @@
 [submodule "libs/unordered"]
 	path = libs/unordered
 	url = git://github.com/boost-lib/unordered.git
+[submodule "libs/utility"]
+	path = libs/utility
+	url = git://github.com/boost-lib/utility.git
