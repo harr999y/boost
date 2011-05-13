@@ -73,3 +73,6 @@
 [submodule "libs/format"]
 	path = libs/format
 	url = git://github.com/boost-lib/format.git
+[submodule "libs/function"]
+	path = libs/function
+	url = git://github.com/boost-lib/function.git
