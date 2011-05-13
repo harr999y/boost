@@ -55,3 +55,6 @@
 [submodule "libs/disjoint_sets"]
 	path = libs/disjoint_sets
 	url = git://github.com/boost-lib/disjoint_sets.git
+[submodule "libs/dynamic_bitset"]
+	path = libs/dynamic_bitset
+	url = git://github.com/boost-lib/dynamic_bitset.git
