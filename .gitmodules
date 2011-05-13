@@ -160,3 +160,6 @@
 [submodule "libs/polygon"]
 	path = libs/polygon
 	url = git://github.com/boost-lib/polygon.git
+[submodule "libs/pool"]
+	path = libs/pool
+	url = git://github.com/boost-lib/pool.git
