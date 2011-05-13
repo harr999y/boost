@@ -49,3 +49,6 @@
 [submodule "libs/date_time"]
 	path = libs/date_time
 	url = git://github.com/boost-lib/date_time.git
+[submodule "libs/detail"]
+	path = libs/detail
+	url = git://github.com/boost-lib/detail.git
