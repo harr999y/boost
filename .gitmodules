@@ -178,3 +178,6 @@
 [submodule "libs/proto"]
 	path = libs/proto
 	url = git://github.com/boost-lib/proto.git
+[submodule "libs/ptr_container"]
+	path = libs/ptr_container
+	url = git://github.com/boost-lib/ptr_container.git
