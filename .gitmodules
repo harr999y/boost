@@ -106,3 +106,6 @@
 [submodule "libs/interprocess"]
 	path = libs/interprocess
 	url = git://github.com/boost-lib/interprocess.git
+[submodule "libs/intrusive"]
+	path = libs/intrusive
+	url = git://github.com/boost-lib/intrusive.git
