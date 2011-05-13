@@ -286,3 +286,6 @@
 [submodule "tools/litre"]
 	path = tools/litre
 	url = git://github.com/boost-lib/litre.git
+[submodule "tools/quickbook"]
+	path = tools/quickbook
+	url = git://github.com/boost-lib/quickbook.git
