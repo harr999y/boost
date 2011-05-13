@@ -166,3 +166,6 @@
 [submodule "libs/preprocessor"]
 	path = libs/preprocessor
 	url = git://github.com/boost-lib/preprocessor.git
+[submodule "libs/program_options"]
+	path = libs/program_options
+	url = git://github.com/boost-lib/program_options.git
