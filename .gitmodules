@@ -100,3 +100,6 @@
 [submodule "libs/icl"]
 	path = libs/icl
 	url = git://github.com/boost-lib/icl.git
+[submodule "libs/integer"]
+	path = libs/integer
+	url = git://github.com/boost-lib/integer.git
