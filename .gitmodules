@@ -34,3 +34,6 @@
 [submodule "libs/concept_check"]
 	path = libs/concept_check
 	url = git://github.com/boost-lib/concept_check.git
+[submodule "libs/config"]
+	path = libs/config
+	url = git://github.com/boost-lib/config.git
