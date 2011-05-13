@@ -205,3 +205,6 @@
 [submodule "libs/serialization"]
 	path = libs/serialization
 	url = git://github.com/boost-lib/serialization.git
+[submodule "libs/signals"]
+	path = libs/signals
+	url = git://github.com/boost-lib/signals.git
