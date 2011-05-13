@@ -199,3 +199,6 @@
 [submodule "libs/regex"]
 	path = libs/regex
 	url = git://github.com/boost-lib/regex.git
+[submodule "libs/scope_exit"]
+	path = libs/scope_exit
+	url = git://github.com/boost-lib/scope_exit.git
