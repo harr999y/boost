@@ -151,3 +151,6 @@
 [submodule "libs/optional"]
 	path = libs/optional
 	url = git://github.com/boost-lib/optional.git
+[submodule "libs/parameter"]
+	path = libs/parameter
+	url = git://github.com/boost-lib/parameter.git
