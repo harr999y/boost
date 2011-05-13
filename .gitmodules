@@ -109,3 +109,6 @@
 [submodule "libs/intrusive"]
 	path = libs/intrusive
 	url = git://github.com/boost-lib/intrusive.git
+[submodule "libs/io"]
+	path = libs/io
+	url = git://github.com/boost-lib/io.git
