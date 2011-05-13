@@ -163,3 +163,6 @@
 [submodule "libs/pool"]
 	path = libs/pool
 	url = git://github.com/boost-lib/pool.git
+[submodule "libs/preprocessor"]
+	path = libs/preprocessor
+	url = git://github.com/boost-lib/preprocessor.git
