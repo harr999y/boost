@@ -115,3 +115,6 @@
 [submodule "libs/iostreams"]
 	path = libs/iostreams
 	url = git://github.com/boost-lib/iostreams.git
+[submodule "libs/iterator"]
+	path = libs/iterator
+	url = git://github.com/boost-lib/iterator.git
