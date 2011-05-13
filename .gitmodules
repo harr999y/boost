@@ -28,3 +28,6 @@
 [submodule "libs/circular_buffer"]
 	path = libs/circular_buffer
 	url = git://github.com/boost-lib/circular_buffer.git
+[submodule "libs/compatibility"]
+	path = libs/compatibility
+	url = git://github.com/boost-lib/compatibility.git
