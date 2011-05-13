@@ -7,3 +7,6 @@
 [submodule "libs/any"]
 	path = libs/any
 	url = git://github.com/boost-lib/any.git
+[submodule "libs/array"]
+	path = libs/array
+	url = git://github.com/boost-lib/array.git
