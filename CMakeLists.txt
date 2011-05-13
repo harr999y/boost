@@ -159,6 +159,7 @@ add_subdirectory(tools/build)
 add_subdirectory(tools/inspect)
 add_subdirectory(tools/litre)
 add_subdirectory(tools/quickbook)
+add_subdirectory(tools/cmake)
 ##########################################################################
 
 list(SORT BOOST_PROJECTS_ALL)
