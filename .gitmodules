@@ -259,3 +259,6 @@
 [submodule "libs/utility"]
 	path = libs/utility
 	url = git://github.com/boost-lib/utility.git
+[submodule "libs/uuid"]
+	path = libs/uuid
+	url = git://github.com/boost-lib/uuid.git
