@@ -291,4 +291,4 @@
 	url = git://github.com/boost-lib/quickbook.git
 [submodule "tools/cmake"]
 	path = tools/cmake
-	url = git@github.com:boost-lib/cmake.git
+	url = git://github.com/boost-lib/cmake.git
