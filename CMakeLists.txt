@@ -15,7 +15,7 @@ project(Boost)
 # Config Information                                                     #
 ##########################################################################
 
-set(BOOST_CONFIG_VERSION "1.47")
+set(BOOST_CONFIG_VERSION "1.48")
 
 file(WRITE "${PROJECT_BINARY_DIR}/boost-config-version.cmake"
   "set(PACKAGE_VERSION \"${BOOST_CONFIG_VERSION}\")\n"
@@ -125,6 +125,7 @@ add_subdirectory(libs/io)
 add_subdirectory(libs/iostreams)
 add_subdirectory(libs/iterator)
 add_subdirectory(libs/lambda)
+add_subdirectory(libs/locale)
 add_subdirectory(libs/logic)
 add_subdirectory(libs/math)
 add_subdirectory(libs/move)
