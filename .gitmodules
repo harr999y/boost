@@ -295,3 +295,6 @@
 [submodule "tools/auto_index"]
 	path = tools/auto_index
 	url = git://github.com/boost-lib/auto_index.git
+[submodule "libs/locale"]
+	path = libs/locale
+	url = git://github.com/boost-lib/locale.git
