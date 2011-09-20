@@ -85,6 +85,7 @@ set(BOOST_SUBDIRECTORIES
   libs/compatibility
   libs/concept_check
   libs/config
+  libs/container
   libs/conversion
   libs/core
   libs/crc
@@ -154,6 +155,7 @@ set(BOOST_SUBDIRECTORIES
   libs/timer
   libs/tokenizer
   libs/tr1
+  libs/tti
   libs/tuple
   libs/type_traits
   libs/typeof
