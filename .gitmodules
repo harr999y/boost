@@ -301,3 +301,6 @@
 [submodule "libs/container"]
 	path = libs/container
 	url = git://github.com/boost-lib/container.git
+[submodule "libs/tti"]
+	path = libs/tti
+	url = git://github.com/boost-lib/tti.git
