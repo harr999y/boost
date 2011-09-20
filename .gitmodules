@@ -298,3 +298,6 @@
 [submodule "libs/locale"]
 	path = libs/locale
 	url = git://github.com/boost-lib/locale.git
+[submodule "libs/container"]
+	path = libs/container
+	url = git://github.com/boost-lib/container.git
