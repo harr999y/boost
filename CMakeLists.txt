@@ -106,6 +106,7 @@ set(BOOST_SUBDIRECTORIES
   libs/gil
   libs/graph
   libs/graph_parallel
+  libs/heap
   libs/icl
   libs/integer
   libs/interprocess
