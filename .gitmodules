@@ -306,4 +306,4 @@
 	url = git://github.com/boost-lib/tti.git
 [submodule "libs/heap"]
 	path = libs/heap
-	url = git://github.com:boost-lib/heap.git
+	url = git://github.com/boost-lib/heap.git
