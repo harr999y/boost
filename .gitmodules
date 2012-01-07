@@ -292,3 +292,18 @@
 [submodule "tools/cmake"]
 	path = tools/cmake
 	url = git://github.com/boost-lib/cmake.git
+[submodule "tools/auto_index"]
+	path = tools/auto_index
+	url = git://github.com/boost-lib/auto_index.git
+[submodule "libs/locale"]
+	path = libs/locale
+	url = git://github.com/boost-lib/locale.git
+[submodule "libs/container"]
+	path = libs/container
+	url = git://github.com/boost-lib/container.git
+[submodule "libs/tti"]
+	path = libs/tti
+	url = git://github.com/boost-lib/tti.git
+[submodule "libs/heap"]
+	path = libs/heap
+	url = git://github.com/boost-lib/heap.git
