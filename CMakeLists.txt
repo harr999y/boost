@@ -86,6 +86,7 @@ set(BOOST_SUBDIRECTORIES
   libs/concept_check
   libs/config
   libs/container
+  libs/context
   libs/conversion
   libs/core
   libs/crc
@@ -115,6 +116,7 @@ set(BOOST_SUBDIRECTORIES
   libs/iostreams
   libs/iterator
   libs/lambda
+  libs/local_function
   libs/locale
   libs/logic
   libs/math
