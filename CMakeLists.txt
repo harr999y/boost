@@ -91,7 +91,6 @@ set(BOOST_SUBDIRECTORIES
   libs/core
   libs/crc
   libs/date_time
-  libs/detail
   libs/disjoint_sets
   libs/dynamic_bitset
   libs/exception
