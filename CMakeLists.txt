@@ -9,21 +9,17 @@
 ##########################################################################
 
 cmake_minimum_required(VERSION 2.8.4 FATAL_ERROR)
-project(Boost)
+project(Boost NONE)
 
 ##########################################################################
 # Config Information                                                     #
 ##########################################################################
 
-configure_file(boost-config.cmake.in boost-config.cmake @ONLY)
-configure_file(boost-config-version.cmake.in boost-config-version.cmake COPYONLY)
+set(Boost_DIR "${Boost_SOURCE_DIR}")
 
-set(Boost_DIR "${Boost_BINARY_DIR}")
-find_package(Boost NO_MODULE)
-include("${Boost_USE_FILE}")
-include(BoostProject)
-
-option(BOOST_DEBIAN_PACKAGES "Create debian packages" OFF)
+if(BOOST_INITIAL_PASS)
+  set(Boost_MODULE_PATH "${Boost_SOURCE_DIR}/tools/cmake/modules")
+endif(BOOST_INITIAL_PASS)
 
 ##########################################################################
 # Building and Testing                                                   #
@@ -47,154 +43,124 @@ set(BOOST_ENABLED_EXAMPLES "NONE" CACHE
   STRING "valid values are ALL, NONE, or a ; separated list of components"
   )
 
-
-# As long as CTest does not support incremental testing, we disable the
-# builtin test target and create our own. This target should be "built"
-# with the "keep going" option, eg: 'make test -k'.
-add_custom_target(test)
-#enable_testing()
-
 # make visual studio look nice
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
-
-# Put the libaries and binaries that get built into directories at the
-# top of the build tree rather than in hard-to-find leaf
-# directories. This simplifies manual testing and the use of the build
-# tree rather than installed Boost libraries.
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
 
 ##########################################################################
 # Components                                                             #
 ##########################################################################
 
-set(BOOST_PROJECTS_ALL)
-
-set(BOOST_SUBDIRECTORIES
-  libs/accumulators
-  libs/algorithm
-  libs/any
-  libs/array
-  libs/asio
-  libs/assign
-  libs/bimap
-  libs/bind
-  libs/chrono
-  libs/circular_buffer
-  libs/compatibility
-  libs/concept_check
-  libs/config
-  libs/container
-  libs/context
-  libs/conversion
-  libs/core
-  libs/crc
-  libs/date_time
-  libs/disjoint_sets
-  libs/dynamic_bitset
-  libs/exception
-  libs/filesystem
-  libs/flyweight
-  libs/foreach
-  libs/format
-  libs/function
-  libs/function_types
-  libs/functional
-  libs/fusion
-  libs/geometry
-  libs/gil
-  libs/graph
-  libs/graph_parallel
-  libs/heap
-  libs/icl
-  libs/integer
-  libs/interprocess
-  libs/intrusive
-  libs/io
-  libs/iostreams
-  libs/iterator
-  libs/lambda
-  libs/local_function
-  libs/locale
-  libs/logic
-  libs/math
-  libs/move
-  libs/mpi
-  libs/mpl
-  libs/msm
-  libs/multi_array
-  libs/multi_index
-  libs/numeric
-  libs/optional
-  libs/parameter
-  libs/phoenix
-  libs/polygon
-  libs/pool
-  libs/preprocessor
-  libs/program_options
-  libs/property_map
-  libs/property_tree
-  libs/proto
-  libs/ptr_container
-  libs/python
-  libs/random
-  libs/range
-  libs/ratio
-  libs/rational
-  libs/regex
-  libs/scope_exit
-  libs/serialization
-  libs/signals
-  libs/signals2
-  libs/smart_ptr
-  libs/spirit
-  libs/statechart
-  libs/static_assert
-  libs/system
-  libs/test
-  libs/thread
-  libs/timer
-  libs/tokenizer
-  libs/tr1
-  libs/tti
-  libs/tuple
-  libs/type_traits
-  libs/typeof
-  libs/units
-  libs/unordered
-  libs/utility
-  libs/uuid
-  libs/variant
-  libs/wave
-  libs/xpressive
-  tools/auto_index
-  tools/bcp
-  tools/boostbook
-  tools/build
-  tools/cmake
-  tools/inspect
-  tools/litre
-  tools/quickbook
-  )
-
-foreach(dir ${BOOST_SUBDIRECTORIES})
-  boost_precache(${dir})
-endforeach(dir)
-
-foreach(dir ${BOOST_SUBDIRECTORIES})
-  add_subdirectory(${dir})
-endforeach(dir)
+add_subdirectory(libs/accumulators)
+add_subdirectory(libs/algorithm)
+add_subdirectory(libs/any)
+add_subdirectory(libs/array)
+add_subdirectory(libs/asio)
+add_subdirectory(libs/assign)
+add_subdirectory(libs/bimap)
+add_subdirectory(libs/bind)
+add_subdirectory(libs/chrono)
+add_subdirectory(libs/circular_buffer)
+add_subdirectory(libs/compatibility)
+add_subdirectory(libs/concept_check)
+add_subdirectory(libs/config)
+add_subdirectory(libs/container)
+add_subdirectory(libs/context)
+add_subdirectory(libs/conversion)
+add_subdirectory(libs/core)
+add_subdirectory(libs/crc)
+add_subdirectory(libs/date_time)
+add_subdirectory(libs/disjoint_sets)
+add_subdirectory(libs/dynamic_bitset)
+add_subdirectory(libs/exception)
+add_subdirectory(libs/filesystem)
+add_subdirectory(libs/flyweight)
+add_subdirectory(libs/foreach)
+add_subdirectory(libs/format)
+add_subdirectory(libs/function)
+add_subdirectory(libs/function_types)
+add_subdirectory(libs/functional)
+add_subdirectory(libs/fusion)
+add_subdirectory(libs/geometry)
+add_subdirectory(libs/gil)
+add_subdirectory(libs/graph)
+add_subdirectory(libs/graph_parallel)
+add_subdirectory(libs/heap)
+add_subdirectory(libs/icl)
+add_subdirectory(libs/integer)
+add_subdirectory(libs/interprocess)
+add_subdirectory(libs/intrusive)
+add_subdirectory(libs/io)
+add_subdirectory(libs/iostreams)
+add_subdirectory(libs/iterator)
+add_subdirectory(libs/lambda)
+add_subdirectory(libs/local_function)
+add_subdirectory(libs/locale)
+add_subdirectory(libs/logic)
+add_subdirectory(libs/math)
+add_subdirectory(libs/move)
+add_subdirectory(libs/mpi)
+add_subdirectory(libs/mpl)
+add_subdirectory(libs/msm)
+add_subdirectory(libs/multi_array)
+add_subdirectory(libs/multi_index)
+add_subdirectory(libs/numeric)
+add_subdirectory(libs/optional)
+add_subdirectory(libs/parameter)
+add_subdirectory(libs/phoenix)
+add_subdirectory(libs/polygon)
+add_subdirectory(libs/pool)
+add_subdirectory(libs/preprocessor)
+add_subdirectory(libs/program_options)
+add_subdirectory(libs/property_map)
+add_subdirectory(libs/property_tree)
+add_subdirectory(libs/proto)
+add_subdirectory(libs/ptr_container)
+add_subdirectory(libs/python)
+add_subdirectory(libs/random)
+add_subdirectory(libs/range)
+add_subdirectory(libs/ratio)
+add_subdirectory(libs/rational)
+add_subdirectory(libs/regex)
+add_subdirectory(libs/scope_exit)
+add_subdirectory(libs/serialization)
+add_subdirectory(libs/signals)
+add_subdirectory(libs/signals2)
+add_subdirectory(libs/smart_ptr)
+add_subdirectory(libs/spirit)
+add_subdirectory(libs/statechart)
+add_subdirectory(libs/static_assert)
+add_subdirectory(libs/system)
+add_subdirectory(libs/test)
+add_subdirectory(libs/thread)
+add_subdirectory(libs/timer)
+add_subdirectory(libs/tokenizer)
+add_subdirectory(libs/tr1)
+add_subdirectory(libs/tti)
+add_subdirectory(libs/tuple)
+add_subdirectory(libs/type_traits)
+add_subdirectory(libs/typeof)
+add_subdirectory(libs/units)
+add_subdirectory(libs/unordered)
+add_subdirectory(libs/utility)
+add_subdirectory(libs/uuid)
+add_subdirectory(libs/variant)
+add_subdirectory(libs/wave)
+add_subdirectory(libs/xpressive)
+add_subdirectory(tools/auto_index)
+add_subdirectory(tools/bcp)
+add_subdirectory(tools/boostbook)
+add_subdirectory(tools/build)
+add_subdirectory(tools/cmake)
+add_subdirectory(tools/inspect)
+add_subdirectory(tools/litre)
+add_subdirectory(tools/quickbook)
 
 ##########################################################################
-# Package Information                                                    #
+#                                                                        #
 ##########################################################################
 
-set(CPACK_PACKAGE_NAME "Boost")
-set(CPACK_PACKAGE_VENDOR "http://www.boost.org")
-set(CPACK_PACKAGE_CONTACT "Daniel Pfeifer <daniel@pfeifer-mail.de>")
-set(CPACK_PACKAGE_VERSION "${Boost_VERSION}")
-set(CPACK_PACKAGE_FILE_NAME "Boost-${Boost_VERSION}-${CMAKE_SYSTEM_NAME}-${BOOST_TOOLSET}")
-set(CPACK_SOURCE_IGNORE_FILES "${Boost_BINARY_DIR}/;/\\\\.git")
+if(BOOST_INITIAL_PASS)
+  # report an error in order to inhibit the generation step (save time).
+  message(ERROR "Initial pass successfully completed, now run CMake again!")
+endif(BOOST_INITIAL_PASS)
 
-include(BoostCPack)
