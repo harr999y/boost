@@ -286,9 +286,6 @@
 [submodule "tools/quickbook"]
 	path = tools/quickbook
 	url = git://github.com/boost-lib/quickbook.git
-[submodule "tools/cmake"]
-	path = tools/cmake
-	url = git://github.com/boost-lib/cmake.git
 [submodule "tools/auto_index"]
 	path = tools/auto_index
 	url = git://github.com/boost-lib/auto_index.git
