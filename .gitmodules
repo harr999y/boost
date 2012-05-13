@@ -142,9 +142,6 @@
 [submodule "libs/multi_index"]
 	path = libs/multi_index
 	url = git://github.com/boost-lib/multi_index.git
-[submodule "libs/numeric"]
-	path = libs/numeric
-	url = git://github.com/boost-lib/numeric.git
 [submodule "libs/optional"]
 	path = libs/optional
 	url = git://github.com/boost-lib/optional.git
