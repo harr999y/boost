@@ -79,6 +79,9 @@
 [submodule "libs/functional"]
 	path = libs/functional
 	url = git://github.com/boost-lib/functional.git
+[submodule "libs/functional_hash"]
+	path = libs/functional_hash
+	url = git://github.com/boost-lib/functional_hash.git
 [submodule "libs/fusion"]
 	path = libs/fusion
 	url = git://github.com/boost-lib/fusion.git
@@ -304,3 +307,12 @@
 [submodule "libs/local_function"]
 	path = libs/local_function
 	url = git://github.com/boost-lib/local_function.git
+[submodule "libs/numeric_conversion"]
+	path = libs/numeric_conversion
+	url = git://github.com/boost-lib/numeric_conversion.git
+[submodule "libs/numeric_interval"]
+	path = libs/numeric_interval
+	url = git://github.com/boost-lib/numeric_interval.git
+[submodule "libs/ublas"]
+	path = libs/ublas
+	url = git://github.com/boost-lib/ublas.git
