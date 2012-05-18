@@ -316,3 +316,6 @@
 [submodule "libs/ublas"]
 	path = libs/ublas
 	url = git://github.com/boost-lib/ublas.git
+[submodule "libs/spirit_classic"]
+	path = libs/spirit_classic
+	url = git://github.com/boost-lib/spirit_classic.git
